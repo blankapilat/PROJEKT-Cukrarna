@@ -28,8 +28,174 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
-
 body {
-	margin: 0;
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: 'Lora', serif;
+	color: #242424;
 }
 
+.hlavicka{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+ }
+
+ h1 {
+	font-size: 52px;
+	line-height: 1.25;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	color: white;
+}
+h2 {
+	font-size: 36px;
+	line-height: 1.25;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	color: #3e606b;
+}
+h3 {
+	font-size: 18px;
+	line-height: 1.25;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	color: #3e606b; }
+
+ .logo {
+	 width: 170px;
+ }
+ .menu {
+	display: flex;
+	list-style: none;
+ }
+
+ .menu a:hover {
+    background-color: #f195b2;
+	padding: 10px 15px;
+	border-radius: 20px;
+	color: white;
+}
+
+.menu a {
+    text-decoration: none;
+	color:#242424;
+}
+
+.jedna, .dva, .tri, .ctyri, .pet {
+	flex-grow: 1;
+	padding: 10px 15px;
+}
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+}
+
+.text {
+	flex-basis: 60%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: white;
+}
+
+.text p {
+	font-size: 24px;
+	font-style: italic;
+}
+
+.cukrarna {
+	display: flex;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+}
+
+.nase {
+	background-color: #f195b2;
+	padding: 10px 15px;
+	border-radius: 20px;
+	color: white;
+	text-decoration-line: none;
+}
+
+.nase:hover {
+    background-color: #d2567d;
+	padding: 10px 15px;
+	border-radius: 20px;
+	color: white;
+}
+
+.vitejte {
+	margin-right: 30px;
+}
+
+.nabidka {
+	display: flex;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+	flex-direction: column;
+	background-color: #f0f0f0	;
+}
+
+.karticky {
+	flex-direction: row;
+	display: flex;
+}
+.karticka {
+	margin-right: 30px;
+	background-color: white;
+	border-radius: 5px;
+    box-shadow: 1px 1px 2px;
+}
+
+.dnesni {
+	flex-basis: 100%;
+	flex-shrink: 0;
+}
+
+.textik {
+	padding: 20px;
+}
+
+.peceni {
+	display: flex;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+}
+
+.vlevo {
+	margin-right: 30px;
+}
+
+.vlevo, .cukrarka {
+	border-radius: 5px;
+}
+
+
+.paticka {
+	background-color: #303339;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+	text-align: center;
+}
